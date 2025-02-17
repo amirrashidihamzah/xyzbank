@@ -111,4 +111,9 @@ public class AccountPage {
         wait.until(ExpectedConditions.visibilityOf(amountInput));
         return  amountInput;
     }
+
+    public WebElement getDepositBtn(){
+        wait.until(ExpectedConditions.visibilityOf(depositBtn));
+        return depositBtn;
+    }
 }

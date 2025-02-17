@@ -46,4 +46,12 @@
         </classes>
     </test>
 
+    <!--Test for Account Responsiveness-->
+    <test name="Account Test Responsiveness">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.example.xyzbank.tests.AccountResponsivenessTest"/>
+        </classes>
+    </test>
+
 </suite>
